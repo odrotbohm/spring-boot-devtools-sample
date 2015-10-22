@@ -1,0 +1,15 @@
+A tiny sample project to show the Spring Boot DevTools problem described [here].
+
+Steps to reproduce:
+
+1. `git clone https://github.com/olivergierke/spring-boot-devtools-sample`
+2. `cd spring-boot-devtools-sample`
+3. `mvn clean install`
+4. Import the `devtools-sample-app` module as Maven project into your IDE.
+5. Run `Application.java`.
+
+To see the difference:
+
+6. Import the `devtools-sample-client` module into your IDE.
+7. Make sure Maven is set up to resolve dependencies from workspace projects.
+8. Run `Application.java` again and see it bootstrap successfully.

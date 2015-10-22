@@ -10,6 +10,8 @@ Steps to reproduce:
 
 To see the difference:
 
-6. Import the `devtools-sample-client` module into your IDE.
+6. Import the `devtools-sample-lib` module into your IDE.
 7. Make sure Maven is set up to resolve dependencies from workspace projects.
 8. Run `Application.java` again and see it bootstrap successfully.
+
+I'd love to be able to declare the `devtools-sample-lib` to be part of my overall application, e.g. by providing a list of base packages whose types could then be included in the restartable class loader.

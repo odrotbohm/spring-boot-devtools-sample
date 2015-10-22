@@ -1,4 +1,4 @@
-A tiny sample project to show the Spring Boot DevTools problem described [here].
+A tiny sample project to show the Spring Boot DevTools problem described https://github.com/spring-projects/spring-boot/issues/4266[here].
 
 Steps to reproduce:
 
